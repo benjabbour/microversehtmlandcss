@@ -31,3 +31,73 @@ body {
     text-decoration: none;
     color: black;
 }
+.section{
+    padding-top:50px;
+    align-items:center;
+    text-align:center;
+
+}
+.paragraph{
+    margin:20px;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    font-size:24px;
+}
+.inputbox{
+    display:block;
+    margin:0 auto;
+    height:30px;
+    width:250px;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+}
+.button{
+    margin:15px auto;
+    display:block;
+    font-size:1em;
+    font-weight:900;
+    font-family:'Lato', sans-serif;
+    cursor:pointer;
+    border: 3px;
+    border-radius:2px;
+    background:transparent;
+    width:200px;
+    background-color:#f1c40f;
+
+}
+.form{
+    display:block;
+}
+.grid{
+    padding : 40px auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+}
+.paragraph2{
+    margin:0 auto;
+    padding:0 auto;
+    font-family:'Lato', sans-serif;
+    font-size:15px;
+}
+.section2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+.container{
+    max-width:1000;
+    width:100%;
+    margin:0 auto;
+}
