@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #eee;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLogo {
+    margin-left: 40px;
+}
+
+.navbarLogo-img{
+    max-width: 300px;
+}
+
+.navbarLinks {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbarLink {
+    margin-right: 100px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+}
